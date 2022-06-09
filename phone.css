@@ -1,0 +1,269 @@
+#logo {
+    margin: 40px 2px;
+    padding: 10px 25px;
+}
+
+#logo img {
+    height: 50px;
+    width: 49px;
+    border-radius: 525px;
+    padding: 1px 3px;
+}
+
+#navbar {
+    height: 0.5px;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 20px;
+    height: 0px;
+    background-color: #333;
+    margin: 2px 0;
+
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+    padding: 30px 146px;
+    justify-content: center;
+    align-items: center;
+    height: 319px;
+
+}
+
+
+#box1 {
+    
+
+    height: 200px;
+    width: 500px;
+    padding: 2px 3px;
+   
+}
+
+.box1 {
+    margin: 10px 2px;
+    position: absolute;
+    top: 10px;
+
+    right: 400px;
+    width: 120px;
+    font: 0.2px;
+}
+
+#box1::before{
+    content: "";
+    position: absolute;
+    right: 360px;
+    background: url('box1.jpg') no-repeat center center/cover;
+    height: 200px ;
+    width:250px;
+    padding: 1px 1px ;
+    z-index: -1;
+    border: 2px solid red ;
+}
+#box2 {
+
+   display: none;
+}
+
+#box3 {
+    position: absolute;
+    left :100px;
+    top: 400px;
+    height: 170px;
+    width: 280px;
+    font-size: 0.5rem;
+    margin: 30px 500 px;
+}
+#box3::before {
+    height: 200px;
+    width: 300px;
+    border: 2px solid red ;
+}
+
+#box3 .btn {
+    margin: 0px 80px;
+    font-size: 0.5rem;
+}
+
+.box3 {
+    margin: 0px 40px;
+}
+
+
+.design {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+#box4 {
+    position: absolute;
+    top: 640px;
+    left: 80px;
+    font-size: 20px;
+    height: 100px;
+    width: 150px;
+}
+
+#box5 {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 700px;
+    right: 350px;
+    font-size: 0.8rem;
+    font: bold;
+}
+
+#box6 {
+    height: 170px;
+    width: 300px;
+    position: absolute;
+    top: 700px;
+    right: 60px;
+    padding: 1px 13px;
+    font-size: 0.7rem;
+}
+
+.box6 {
+
+    padding: 2px 2px;
+    margin: 30px 63px;
+}
+
+#box6::before {
+    height: 180px;
+    width: 360px;
+}
+
+.services::before {
+    height: 205px;
+    width: 100%;
+    margin-top: 450px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    height: 203px;
+    width: 270px;
+    margin: 42px 33px;
+    padding: 49px -1px;
+    font-size: 1.3rem;
+    position: none;
+}
+
+.box::before {
+    position: relative;
+    top: 570px;
+    height: 258px;
+    width: 288px;
+
+
+}
+
+.box img {
+    height: 20px;
+    width: 30px;
+}
+
+.branding {
+    margin-top: 400px;
+    height: 1000px;
+    width: 100%;
+}
+
+.branding::before {
+
+    height: 1000px;
+    width: 100%;
+}
+
+.branding-container1 {
+    display: flex;
+    color: aliceblue;
+}
+
+.branding-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10px;
+    margin: 10px 20px;
+    padding: 10px 13px;
+}
+
+#box11 {
+    height: 270px;
+    width: 50%;
+    padding: 1px 13px;
+    margin-left: 10px;
+    margin-top: 156px;
+    font-size: 25px;
+}
+
+#box12 {
+    height: 270px;
+    width: 45%;
+    padding: 10px 43px;
+    margin-left: 10px;
+    margin-top: 156px;
+    font-size: 15px;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 12px 83px;
+    margin-top: 40px;
+}
+
+#box13 {
+    height: 150px;
+    width: 600px;
+    font-size: 73px;
+    padding: 1px 13px;
+    margin: 10px 17px;
+    color: palevioletred;
+    position: relative;
+    bottom: 100px;
+}
+
+#box14 {
+    height: 200px;
+    width: 300px;
+    padding: 1px 13px;
+    font-size: 25px;
+    position: relative;
+    top: 44px;
+    right: 253px;
+    font: bold;
+    margin: 10px 20px;
+}
+
+#box15 {
+    height: 250px;
+    width: 400px;
+    padding: 1px 23px;
+    font-size: 20px;
+    margin: 54px -30px;
+    position: absolute;
+    right: 100px;
+    justify-content: center;
+    padding-right: 87px;
+}
